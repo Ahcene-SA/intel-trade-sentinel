@@ -29,6 +29,28 @@ npm run build      # outputs to .output/ (nitro) — client assets in .output/pu
 npm run preview    # serve the production build locally
 ```
 
+### Dokploy (VPS)
+
+Dokploy builds the `Dockerfile` from this repo (nitro `node-server` preset, app
+listens on port 3000). In the Dokploy panel: create an Application service
+under a project → source type **Git** with this repo URL and branch `main`
+(build type **Dockerfile**) → set the app port to **3000** → add the domain
+(e.g. `inteltradebyca.com`) and enable Let's Encrypt SSL.
+
+Every push to `main` can be redeployed with one click in the panel (or auto if
+you enable redeploy on push).
+
+To build/run manually:
+
+```sh
+docker build -t intel-trade-site .
+docker run -p 3000:3000 intel-trade-site
+```
+
+For a bare `npm run build && node .output/server/index.mjs` Node deployment,
+set `NITRO_PRESET=node-server` at build time (the default preset targets
+Cloudflare Workers).
+
 ## Tests & checks
 
 ```sh
