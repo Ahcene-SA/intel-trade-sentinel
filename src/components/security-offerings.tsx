@@ -2,14 +2,14 @@ import { Cctv, ShieldAlert, HeartPulse, Vault } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { securityOfferings } from "@/lib/security-offerings";
 import type { Lang } from "@/lib/i18n";
-import camera from "@/assets/home_burglary_short.mp4.asset.json";
+import camera from "@/assets/home_burglary_short.mp4";
 
 const homeIcons = [Cctv, ShieldAlert, HeartPulse, Vault];
 
 export function SecurityOfferings({ lang, contactLabel }: { lang: Lang; contactLabel: string }) {
   const copy = securityOfferings[lang];
   return <>
-    {([{ id: "home-security", copy: copy.home, icons: homeIcons, video: camera.url }]).map((section) => (
+    {([{ id: "home-security", copy: copy.home, icons: homeIcons, video: camera }]).map((section) => (
       <section key={section.id} id={section.id} className="scroll-mt-44 border-y border-border bg-card/40">
         <div className="mx-auto max-w-7xl px-6 py-24">
           <div className="reveal grid items-center gap-10 lg:grid-cols-2">

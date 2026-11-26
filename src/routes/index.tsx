@@ -4,51 +4,51 @@ import {
   Cctv, ShieldAlert, KeyRound, BellRing, Flame, HeartPulse, Radar, Search, Network, Handshake, ArrowRight, Plane,
   Store, Warehouse, Factory, Building2, Landmark, Briefcase, ChevronDown, Check, Play, CloudFog, ShieldCheck, Sparkles,
 } from "lucide-react";
-import hero from "@/assets/hero_security.mp4.asset.json";
-import cam from "@/assets/camera_closeup.mp4.asset.json";
-import intrusion from "@/assets/intrusion_open_gateway.mp4.asset.json";
-import shoplifting from "@/assets/shoplifting_detection.mp4.asset.json";
-import fireAi from "@/assets/fire_ai_detection.mp4.asset.json";
-import weaponAi from "@/assets/weapon_detection.mp4.asset.json";
-import access from "@/assets/access_control_v2.mp4.asset.json";
-import irisAccess from "@/assets/iris_premium_access.mp4.asset.json";
-import control from "@/assets/control_room.mp4.asset.json";
-import cyberNetwork from "@/assets/cybersecurity_network.mp4.asset.json";
-import dronePatrol from "@/assets/drone_warehouse_patrol.mp4.asset.json";
-import hygieneRobot from "@/assets/humanoid_vacuum_motion.mp4.asset.json";
-import fire from "@/assets/fire_detection.mp4.asset.json";
-import aed from "@/assets/defibrillator.mp4.asset.json";
-import logo from "@/assets/intel_trade_logo.png.asset.json";
-import eurotecLogo from "@/assets/brands/eurotec.jpg.asset.json";
-import edenLogo from "@/assets/brands/eden.png.asset.json";
-import zktecoLogo from "@/assets/brands/zkteco.svg.asset.json";
-import ajaxLogo from "@/assets/brands/ajax.svg.asset.json";
-import jablotronLogo from "@/assets/brands/jablotron.svg.asset.json";
-import paradoxLogo from "@/assets/brands/paradox.png.asset.json";
-import incertLogo from "@/assets/brands/incert.svg.asset.json";
-import honeywellLogo from "@/assets/brands/honeywell.svg.asset.json";
-import bosecLogo from "@/assets/brands/bosec.svg.asset.json";
-import siemensLogo from "@/assets/brands/siemens.svg.asset.json";
-import hikvisionLogo from "@/assets/brands/hikvision.svg.asset.json";
-import dahuaLogo from "@/assets/brands/dahua.svg.asset.json";
-import lgLogo from "@/assets/brands/lg_color.svg.asset.json";
-import boschLogo from "@/assets/brands/bosch_color.svg.asset.json";
-import hidLogo from "@/assets/brands/hid.svg.asset.json";
-import totalLogo from "@/assets/brands/clients/totalenergies.svg.asset.json";
-import stellantisLogo from "@/assets/brands/clients/stellantis.svg.asset.json";
-import carrefourLogo from "@/assets/brands/clients/carrefour_market.svg.asset.json";
-import delhaizeLogo from "@/assets/brands/clients/delhaize.svg.asset.json";
-import mercedesLogo from "@/assets/brands/clients/mercedes_benz.svg.asset.json";
-import aspriaLogo from "@/assets/brands/clients/aspria_royal_la_rasante.svg.asset.json";
-import audiLogo from "@/assets/brands/clients/audi.svg.asset.json";
+import hero from "@/assets/hero_security.mp4";
+import cam from "@/assets/camera_closeup.mp4";
+import intrusion from "@/assets/intrusion_open_gateway.mp4";
+import shoplifting from "@/assets/shoplifting_detection.mp4";
+import fireAi from "@/assets/fire_ai_detection.mp4";
+import weaponAi from "@/assets/weapon_detection.mp4";
+import access from "@/assets/access_control_v2.mp4";
+import irisAccess from "@/assets/iris_premium_access.mp4";
+import control from "@/assets/control_room.mp4";
+import cyberNetwork from "@/assets/cybersecurity_network.mp4";
+import dronePatrol from "@/assets/drone_warehouse_patrol.mp4";
+import hygieneRobot from "@/assets/humanoid_vacuum_motion.mp4";
+import fire from "@/assets/fire_detection.mp4";
+import aed from "@/assets/defibrillator.mp4";
+import logo from "@/assets/intel_trade_logo.png";
+import eurotecLogo from "@/assets/brands/eurotec.jpg";
+import edenLogo from "@/assets/brands/eden.png";
+import zktecoLogo from "@/assets/brands/zkteco.svg";
+import ajaxLogo from "@/assets/brands/ajax.svg";
+import jablotronLogo from "@/assets/brands/jablotron.svg";
+import paradoxLogo from "@/assets/brands/paradox.png";
+import incertLogo from "@/assets/brands/incert.svg";
+import honeywellLogo from "@/assets/brands/honeywell.svg";
+import bosecLogo from "@/assets/brands/bosec.svg";
+import siemensLogo from "@/assets/brands/siemens.svg";
+import hikvisionLogo from "@/assets/brands/hikvision.svg";
+import dahuaLogo from "@/assets/brands/dahua.svg";
+import lgLogo from "@/assets/brands/lg_color.svg";
+import boschLogo from "@/assets/brands/bosch_color.svg";
+import hidLogo from "@/assets/brands/hid.svg";
+import totalLogo from "@/assets/brands/clients/totalenergies.svg";
+import stellantisLogo from "@/assets/brands/clients/stellantis.svg";
+import carrefourLogo from "@/assets/brands/clients/carrefour_market.svg";
+import delhaizeLogo from "@/assets/brands/clients/delhaize.svg";
+import mercedesLogo from "@/assets/brands/clients/mercedes_benz.svg";
+import aspriaLogo from "@/assets/brands/clients/aspria_royal_la_rasante.svg";
+import audiLogo from "@/assets/brands/clients/audi.svg";
 const clients = [
-  { name: "TotalEnergies Benelux", logo: totalLogo.url },
-  { name: "Stellantis", logo: stellantisLogo.url },
-  { name: "Carrefour Market", logo: carrefourLogo.url },
-  { name: "Delhaize", logo: delhaizeLogo.url },
-  { name: "Mercedes-Benz", logo: mercedesLogo.url },
-  { name: "Aspria Royal La Rasante", logo: aspriaLogo.url },
-  { name: "Audi", logo: audiLogo.url },
+  { name: "TotalEnergies Benelux", logo: totalLogo },
+  { name: "Stellantis", logo: stellantisLogo },
+  { name: "Carrefour Market", logo: carrefourLogo },
+  { name: "Delhaize", logo: delhaizeLogo },
+  { name: "Mercedes-Benz", logo: mercedesLogo },
+  { name: "Aspria Royal La Rasante", logo: aspriaLogo },
+  { name: "Audi", logo: audiLogo },
 ];
 import { dict, LANGS, type Lang } from "@/lib/i18n";
 import { securityOfferings } from "@/lib/security-offerings";
@@ -70,14 +70,14 @@ export const Route = createFileRoute("/")({
 });
 
 const svcMeta = [
-  { icon: Plane, n: "01", color: 4, video: dronePatrol.url },
-  { icon: ShieldAlert, n: "02", color: 1, video: intrusion.url },
-  { icon: Cctv, n: "03", color: 2, video: cam.url },
-  { icon: KeyRound, n: "04", color: 3, video: irisAccess.url },
-  { icon: Flame, n: "05", color: 5, video: fire.url },
-  { icon: HeartPulse, n: "06", color: 6, video: aed.url },
-  { icon: Sparkles, n: "07", color: 8, video: hygieneRobot.url },
-  { icon: ShieldCheck, n: "08", color: 7, video: cyberNetwork.url },
+  { icon: Plane, n: "01", color: 4, video: dronePatrol },
+  { icon: ShieldAlert, n: "02", color: 1, video: intrusion },
+  { icon: Cctv, n: "03", color: 2, video: cam },
+  { icon: KeyRound, n: "04", color: 3, video: irisAccess },
+  { icon: Flame, n: "05", color: 5, video: fire },
+  { icon: HeartPulse, n: "06", color: 6, video: aed },
+  { icon: Sparkles, n: "07", color: 8, video: hygieneRobot },
+  { icon: ShieldCheck, n: "08", color: 7, video: cyberNetwork },
 ];
 const sectorIcons = [Store, Warehouse, Factory, Building2, Landmark, Briefcase];
 const stepIcons = [Radar, Search, Network, Handshake];
@@ -122,21 +122,21 @@ function Ticker({ words }: { words: string[] }) {
 }
 
 const brands: { name: string; cats: number[]; logo: string }[] = [
-  { name: "Incert", cats: [0], logo: incertLogo.url },
-  { name: "Eurotec", cats: [0], logo: eurotecLogo.url },
-  { name: "Ajax", cats: [0, 1], logo: ajaxLogo.url },
-  { name: "Jablotron", cats: [0], logo: jablotronLogo.url },
-  { name: "Paradox", cats: [0], logo: paradoxLogo.url },
-  { name: "Honeywell", cats: [0, 3], logo: honeywellLogo.url },
-  { name: "Bosec", cats: [1], logo: bosecLogo.url },
-  { name: "Siemens", cats: [1], logo: siemensLogo.url },
-  { name: "Hikvision", cats: [2], logo: hikvisionLogo.url },
-  { name: "Dahua", cats: [2], logo: dahuaLogo.url },
-  { name: "LG", cats: [2], logo: lgLogo.url },
-  { name: "Bosch", cats: [2, 3], logo: boschLogo.url },
-  { name: "HID", cats: [3], logo: hidLogo.url },
-  { name: "Eden", cats: [3], logo: edenLogo.url },
-  { name: "ZKTeco", cats: [3], logo: zktecoLogo.url },
+  { name: "Incert", cats: [0], logo: incertLogo },
+  { name: "Eurotec", cats: [0], logo: eurotecLogo },
+  { name: "Ajax", cats: [0, 1], logo: ajaxLogo },
+  { name: "Jablotron", cats: [0], logo: jablotronLogo },
+  { name: "Paradox", cats: [0], logo: paradoxLogo },
+  { name: "Honeywell", cats: [0, 3], logo: honeywellLogo },
+  { name: "Bosec", cats: [1], logo: bosecLogo },
+  { name: "Siemens", cats: [1], logo: siemensLogo },
+  { name: "Hikvision", cats: [2], logo: hikvisionLogo },
+  { name: "Dahua", cats: [2], logo: dahuaLogo },
+  { name: "LG", cats: [2], logo: lgLogo },
+  { name: "Bosch", cats: [2, 3], logo: boschLogo },
+  { name: "HID", cats: [3], logo: hidLogo },
+  { name: "Eden", cats: [3], logo: edenLogo },
+  { name: "ZKTeco", cats: [3], logo: zktecoLogo },
 ];
 
 function Index() {
@@ -150,7 +150,7 @@ function Index() {
   const t = dict[lang];
   const additional = securityOfferings[lang];
   const navigation = [...t.nav.slice(0, 2), ["home-security", additional.home.label], ...t.nav.slice(2)];
-  const services = t.services.map((x, i) => ({ ...x, ...(svcMeta[i] ?? { icon: Cctv, n: "01", color: 2, video: cam.url }) }));
+  const services = t.services.map((x, i) => ({ ...x, ...(svcMeta[i] ?? { icon: Cctv, n: "01", color: 2, video: cam }) }));
   const sectors = t.sectors.map(([tt, d], i) => ({ t: tt, d, icon: sectorIcons[i] ?? Store }));
   const steps = t.steps.map(([tt, d], i) => ({ t: tt, d, icon: stepIcons[i] ?? Radar }));
   const faqs = t.faqs;
@@ -162,7 +162,7 @@ function Index() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/60 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#top" aria-label={`Intel Trade by CA — ${t.home}`} className="block shrink-0">
-            <img src={logo.url} alt="Intel Trade by CA" width={1932} height={714} className="h-16 w-44 object-contain object-left sm:h-20 sm:w-60" />
+            <img src={logo} alt="Intel Trade by CA" width={1932} height={714} className="h-16 w-44 object-contain object-left sm:h-20 sm:w-60" />
           </a>
           <div className="hidden gap-3 font-mono text-xs uppercase text-accent 2xl:flex">
             {navigation.map(([id, l]) => (
@@ -186,7 +186,7 @@ function Index() {
 
       {/* HERO VIDEO */}
       <section id="top" className="relative flex min-h-screen items-center overflow-hidden">
-        <BgVideo src={hero.url} />
+        <BgVideo src={hero} />
         <div className="absolute inset-0 video-shade" />
         <div className="absolute inset-0 grid-bg opacity-40" />
         <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-primary/15 to-transparent animate-scan" />
@@ -277,7 +277,7 @@ function Index() {
       {/* SOLUTIONS INTERACTIVES */}
       <section id="solutions" className="relative isolate scroll-mt-40 overflow-clip border-y border-border bg-background">
         {active === 1 && <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 top-20 -z-10 overflow-hidden">
-          <BgVideo src={control.url} className="object-top" />
+          <BgVideo src={control} className="object-top" />
           <div className="absolute inset-0 video-shade bg-background/40" />
         </div>}
         <div className="relative mx-auto max-w-7xl px-6 py-28">
@@ -332,7 +332,7 @@ function Index() {
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {t.ai.map((x, i) => {
             const Icon = [ShieldAlert, Store, Flame][i] ?? ShieldAlert;
-            const vid = [intrusion.url, shoplifting.url, fireAi.url, weaponAi.url][i] ?? hero.url;
+            const vid = [intrusion, shoplifting, fireAi, weaponAi][i] ?? hero;
             return (
               <article key={x.t} className="reveal group flex flex-col overflow-hidden rounded-sm border border-border bg-card/60 transition hover:border-primary hover:shadow-glow" style={{ transitionDelay: `${i * 100}ms` }}>
                 <div className="relative aspect-video overflow-hidden">
@@ -373,7 +373,7 @@ function Index() {
 
       {/* VIDEO BAND */}
       <section className="relative flex min-h-[70vh] items-center overflow-hidden">
-        <BgVideo src={access.url} />
+        <BgVideo src={access} />
         <div className="absolute inset-0 bg-background/60" />
         <div className="reveal relative mx-auto max-w-4xl px-6 text-center">
           <p className="font-display text-3xl font-bold md:text-5xl">{t.quote}</p>
